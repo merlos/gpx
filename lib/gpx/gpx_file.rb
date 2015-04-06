@@ -24,7 +24,7 @@ module GPX
   class GPXFile < Base
     attr_accessor :tracks, :routes, :waypoints, :bounds, :lowest_point, :highest_point, :duration, :ns, :time, :name, :version, :creator
 
-    DEFAULT_CREATOR = "GPX RubyGem #{GPX::VERSION} -- http://dougfales.github.io/gpx/".freeze
+    DEFAULT_CREATOR = "Panatrans.org GPX RubyGem #{GPX::VERSION} by Doug Fales, Andrew Hao & Merlos -- http://merlos.github.io/gpx/".freeze
 
     # This initializer can be used to create a new GPXFile from an existing
     # file or to create a new GPXFile instance with no data (so that you can
